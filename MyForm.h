@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include <iostream>
 #include <algorithm>
 #include <cstdlib>
@@ -15,7 +15,7 @@ namespace Project36 {
 	using namespace std;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// РЎРІРѕРґРєР° РґР»СЏ MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -24,13 +24,13 @@ namespace Project36 {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: РґРѕР±Р°РІСЊС‚Рµ РєРѕРґ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// РћСЃРІРѕР±РѕРґРёС‚СЊ РІСЃРµ РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ СЂРµСЃСѓСЂСЃС‹.
 		/// </summary>
 		~MyForm()
 		{
@@ -92,14 +92,14 @@ namespace Project36 {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// РћР±СЏР·Р°С‚РµР»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°.
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// РўСЂРµР±СѓРµРјС‹Р№ РјРµС‚РѕРґ РґР»СЏ РїРѕРґРґРµСЂР¶РєРё РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР° вЂ” РЅРµ РёР·РјРµРЅСЏР№С‚Рµ 
+		/// СЃРѕРґРµСЂР¶РёРјРѕРµ СЌС‚РѕРіРѕ РјРµС‚РѕРґР° СЃ РїРѕРјРѕС‰СЊСЋ СЂРµРґР°РєС‚РѕСЂР° РєРѕРґР°.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -140,7 +140,7 @@ namespace Project36 {
 			this->lblHead->Name = L"lblHead";
 			this->lblHead->Size = System::Drawing::Size(190, 13);
 			this->lblHead->TabIndex = 0;
-			this->lblHead->Text = L"Для начала теста нажми на кнопку!";
+			this->lblHead->Text = L"Р”Р»СЏ РЅР°С‡Р°Р»Р° С‚РµСЃС‚Р° РЅР°Р¶РјРё РЅР° РєРЅРѕРїРєСѓ!";
 			this->lblHead->TextAlign = System::Drawing::ContentAlignment::TopCenter;
 			// 
 			// btnStart
@@ -149,7 +149,7 @@ namespace Project36 {
 			this->btnStart->Name = L"btnStart";
 			this->btnStart->Size = System::Drawing::Size(128, 25);
 			this->btnStart->TabIndex = 1;
-			this->btnStart->Text = L"ПЕРЕМЕШАТЬ";
+			this->btnStart->Text = L"РџР•Р Р•РњР•РЁРђРўР¬";
 			this->btnStart->UseVisualStyleBackColor = true;
 			this->btnStart->Click += gcnew System::EventHandler(this, &MyForm::btnStart_Click);
 			// 
@@ -193,7 +193,7 @@ namespace Project36 {
 			this->grpTask1->Size = System::Drawing::Size(168, 98);
 			this->grpTask1->TabIndex = 5;
 			this->grpTask1->TabStop = false;
-			this->grpTask1->Text = L"Выбери 1 вариант ответа:";
+			this->grpTask1->Text = L"Р’С‹Р±РµСЂРё 1 РІР°СЂРёР°РЅС‚ РѕС‚РІРµС‚Р°:";
 			this->grpTask1->Visible = false;
 			// 
 			// label2
@@ -228,7 +228,7 @@ namespace Project36 {
 			this->btnTask2->Name = L"btnTask2";
 			this->btnTask2->Size = System::Drawing::Size(75, 23);
 			this->btnTask2->TabIndex = 10;
-			this->btnTask2->Text = L"Проверить";
+			this->btnTask2->Text = L"РџСЂРѕРІРµСЂРёС‚СЊ";
 			this->btnTask2->UseVisualStyleBackColor = true;
 			this->btnTask2->Visible = false;
 			this->btnTask2->Click += gcnew System::EventHandler(this, &MyForm::btnTask2_Click);
@@ -239,7 +239,7 @@ namespace Project36 {
 			this->btnTask->Name = L"btnTask";
 			this->btnTask->Size = System::Drawing::Size(128, 23);
 			this->btnTask->TabIndex = 11;
-			this->btnTask->Text = L"Вопрос";
+			this->btnTask->Text = L"Р’РѕРїСЂРѕСЃ";
 			this->btnTask->UseVisualStyleBackColor = true;
 			this->btnTask->Visible = false;
 			this->btnTask->Click += gcnew System::EventHandler(this, &MyForm::btnTask_Click);
@@ -250,7 +250,7 @@ namespace Project36 {
 			this->btnTask1->Name = L"btnTask1";
 			this->btnTask1->Size = System::Drawing::Size(75, 23);
 			this->btnTask1->TabIndex = 12;
-			this->btnTask1->Text = L"Выбрать";
+			this->btnTask1->Text = L"Р’С‹Р±СЂР°С‚СЊ";
 			this->btnTask1->UseVisualStyleBackColor = true;
 			this->btnTask1->Visible = false;
 			this->btnTask1->Click += gcnew System::EventHandler(this, &MyForm::btnTask1_Click);
@@ -302,7 +302,7 @@ namespace Project36 {
 			this->grpTask3->Size = System::Drawing::Size(245, 110);
 			this->grpTask3->TabIndex = 17;
 			this->grpTask3->TabStop = false;
-			this->grpTask3->Text = L"Выберите несколько вариантов ответа:";
+			this->grpTask3->Text = L"Р’С‹Р±РµСЂРёС‚Рµ РЅРµСЃРєРѕР»СЊРєРѕ РІР°СЂРёР°РЅС‚РѕРІ РѕС‚РІРµС‚Р°:";
 			this->grpTask3->Visible = false;
 			// 
 			// btnTask3
@@ -311,7 +311,7 @@ namespace Project36 {
 			this->btnTask3->Name = L"btnTask3";
 			this->btnTask3->Size = System::Drawing::Size(75, 23);
 			this->btnTask3->TabIndex = 18;
-			this->btnTask3->Text = L"Выбрать";
+			this->btnTask3->Text = L"Р’С‹Р±СЂР°С‚СЊ";
 			this->btnTask3->UseVisualStyleBackColor = true;
 			this->btnTask3->Visible = false;
 			this->btnTask3->Click += gcnew System::EventHandler(this, &MyForm::btnTask3_Click);
@@ -331,7 +331,7 @@ namespace Project36 {
 			this->btnResult->Name = L"btnResult";
 			this->btnResult->Size = System::Drawing::Size(135, 23);
 			this->btnResult->TabIndex = 20;
-			this->btnResult->Text = L"Узнать результат!";
+			this->btnResult->Text = L"РЈР·РЅР°С‚СЊ СЂРµР·СѓР»СЊС‚Р°С‚!";
 			this->btnResult->UseVisualStyleBackColor = true;
 			this->btnResult->Visible = false;
 			this->btnResult->Click += gcnew System::EventHandler(this, &MyForm::btnResult_Click);
@@ -344,7 +344,7 @@ namespace Project36 {
 			this->rbtnYes->Size = System::Drawing::Size(40, 17);
 			this->rbtnYes->TabIndex = 21;
 			this->rbtnYes->TabStop = true;
-			this->rbtnYes->Text = L"Да";
+			this->rbtnYes->Text = L"Р”Р°";
 			this->rbtnYes->UseVisualStyleBackColor = true;
 			// 
 			// rbtnNo
@@ -355,7 +355,7 @@ namespace Project36 {
 			this->rbtnNo->Size = System::Drawing::Size(44, 17);
 			this->rbtnNo->TabIndex = 22;
 			this->rbtnNo->TabStop = true;
-			this->rbtnNo->Text = L"Нет";
+			this->rbtnNo->Text = L"РќРµС‚";
 			this->rbtnNo->UseVisualStyleBackColor = true;
 			// 
 			// grpTask11
@@ -367,7 +367,7 @@ namespace Project36 {
 			this->grpTask11->Size = System::Drawing::Size(127, 80);
 			this->grpTask11->TabIndex = 23;
 			this->grpTask11->TabStop = false;
-			this->grpTask11->Text = L"Да или нет\?";
+			this->grpTask11->Text = L"Р”Р° РёР»Рё РЅРµС‚\?";
 			this->grpTask11->Visible = false;
 			// 
 			// btnTask11
@@ -376,7 +376,7 @@ namespace Project36 {
 			this->btnTask11->Name = L"btnTask11";
 			this->btnTask11->Size = System::Drawing::Size(75, 23);
 			this->btnTask11->TabIndex = 24;
-			this->btnTask11->Text = L"Выбрать";
+			this->btnTask11->Text = L"Р’С‹Р±СЂР°С‚СЊ";
 			this->btnTask11->UseVisualStyleBackColor = true;
 			this->btnTask11->Visible = false;
 			this->btnTask11->Click += gcnew System::EventHandler(this, &MyForm::btnTask11_Click);
@@ -402,7 +402,7 @@ namespace Project36 {
 			this->Controls->Add(this->btnStart);
 			this->Controls->Add(this->lblHead);
 			this->Name = L"MyForm";
-			this->Text = L"ТЕСТ";
+			this->Text = L"РўР•РЎРў";
 			this->grpTask1->ResumeLayout(false);
 			this->grpTask1->PerformLayout();
 			this->grpTask3->ResumeLayout(false);
@@ -414,50 +414,50 @@ namespace Project36 {
 
 		}
 #pragma endregion
-		//функция выбора вопроса
+		//С„СѓРЅРєС†РёСЏ РІС‹Р±РѕСЂР° РІРѕРїСЂРѕСЃР°
 		void choiceOfQuestion(int k)
 		{
-			//ненужные кнопки исчезают, чтобы не путать пользователя, становятся видимыми нужные для задания
-			//шаблоны заполняются необходимыми параметрами
+			//РЅРµРЅСѓР¶РЅС‹Рµ РєРЅРѕРїРєРё РёСЃС‡РµР·Р°СЋС‚, С‡С‚РѕР±С‹ РЅРµ РїСѓС‚Р°С‚СЊ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ, СЃС‚Р°РЅРѕРІСЏС‚СЃСЏ РІРёРґРёРјС‹РјРё РЅСѓР¶РЅС‹Рµ РґР»СЏ Р·Р°РґР°РЅРёСЏ
+			//С€Р°Р±Р»РѕРЅС‹ Р·Р°РїРѕР»РЅСЏСЋС‚СЃСЏ РЅРµРѕР±С…РѕРґРёРјС‹РјРё РїР°СЂР°РјРµС‚СЂР°РјРё
 			btnTask->Visible = false;
 			switch (k)
 			{
-				//категория вопросов 1 - выбор из 3 вариаетов ответа
+				//РєР°С‚РµРіРѕСЂРёСЏ РІРѕРїСЂРѕСЃРѕРІ 1 - РІС‹Р±РѕСЂ РёР· 3 РІР°СЂРёР°РµС‚РѕРІ РѕС‚РІРµС‚Р°
 				case 1:
-					lblHead->Text = "Вопрос 1:";
+					lblHead->Text = "Р’РѕРїСЂРѕСЃ 1:";
 					label2->Visible = true;
-					label2->Text = "Жертвы этого вируса получали вложение с названием «LOVE - LETTER - FOR - YOU».";
+					label2->Text = "Р–РµСЂС‚РІС‹ СЌС‚РѕРіРѕ РІРёСЂСѓСЃР° РїРѕР»СѓС‡Р°Р»Рё РІР»РѕР¶РµРЅРёРµ СЃ РЅР°Р·РІР°РЅРёРµРј В«LOVE - LETTER - FOR - YOUВ».";
 					grpTask1->Visible = true;
 					btnTask1->Visible = true;
 					rbtn1->Text = "Trojan horse";
 					rbtn2->Text = "I love you";
 					rbtn3->Text = "Your favorite letter";
 					break;
-				//категория 2 - ввести в текстовое поле
+				//РєР°С‚РµРіРѕСЂРёСЏ 2 - РІРІРµСЃС‚Рё РІ С‚РµРєСЃС‚РѕРІРѕРµ РїРѕР»Рµ
 				case 2:
 					grpTask1->Visible = false;
-					lblHead->Text = "Вопрос 2:";
+					lblHead->Text = "Р’РѕРїСЂРѕСЃ 2:";
 					label2->Visible = true;
-					label2->Text = "Год основания нашего факультета";
+					label2->Text = "Р“РѕРґ РѕСЃРЅРѕРІР°РЅРёСЏ РЅР°С€РµРіРѕ С„Р°РєСѓР»СЊС‚РµС‚Р°";
 					txtAnswer->Visible = true;
 					btnTask2->Visible = true;
 					break;
-				//категория 3 - выбор нескольких вариантов ответа
+				//РєР°С‚РµРіРѕСЂРёСЏ 3 - РІС‹Р±РѕСЂ РЅРµСЃРєРѕР»СЊРєРёС… РІР°СЂРёР°РЅС‚РѕРІ РѕС‚РІРµС‚Р°
 				case 3:
-					lblHead->Text = "Вопрос 3:";
+					lblHead->Text = "Р’РѕРїСЂРѕСЃ 3:";
 					label2->Visible = true;
-					label2->Text = "Какие из направлений являются бакалавриатом?";
+					label2->Text = "РљР°РєРёРµ РёР· РЅР°РїСЂР°РІР»РµРЅРёР№ СЏРІР»СЏСЋС‚СЃСЏ Р±Р°РєР°Р»Р°РІСЂРёР°С‚РѕРј?";
 					grpTask3->Visible = true;
-					checkBox1->Text = "КБ";
-					checkBox2->Text = "ИВТ";
-					checkBox3->Text = "ПИ";
-					checkBox4->Text = "ФИИТ";
+					checkBox1->Text = "РљР‘";
+					checkBox2->Text = "РР’Рў";
+					checkBox3->Text = "РџР";
+					checkBox4->Text = "Р¤РРРў";
 					btnTask3->Visible = true;
 					break;
 				case 4:
-					lblHead->Text = "Вопрос 4:";
+					lblHead->Text = "Р’РѕРїСЂРѕСЃ 4:";
 					label2->Visible = true;
-					label2->Text = "Как вы думаете, какой из этих паролей не входит в топ-200 популярных паролей?";
+					label2->Text = "РљР°Рє РІС‹ РґСѓРјР°РµС‚Рµ, РєР°РєРѕР№ РёР· СЌС‚РёС… РїР°СЂРѕР»РµР№ РЅРµ РІС…РѕРґРёС‚ РІ С‚РѕРї-200 РїРѕРїСѓР»СЏСЂРЅС‹С… РїР°СЂРѕР»РµР№?";
 					grpTask1->Visible = true;
 					btnTask1->Visible = true;
 					rbtn1->Text = "zinch";
@@ -466,16 +466,16 @@ namespace Project36 {
 					break;
 				case 5:
 					grpTask1->Visible = false;
-					lblHead->Text = "Вопрос 5:";
+					lblHead->Text = "Р’РѕРїСЂРѕСЃ 5:";
 					label2->Visible = true;
-					label2->Text = "Назовите организацию, которая публикует секретную информацию, взятую из анонимных источников или при утечке данной информации.";
+					label2->Text = "РќР°Р·РѕРІРёС‚Рµ РѕСЂРіР°РЅРёР·Р°С†РёСЋ, РєРѕС‚РѕСЂР°СЏ РїСѓР±Р»РёРєСѓРµС‚ СЃРµРєСЂРµС‚РЅСѓСЋ РёРЅС„РѕСЂРјР°С†РёСЋ, РІР·СЏС‚СѓСЋ РёР· Р°РЅРѕРЅРёРјРЅС‹С… РёСЃС‚РѕС‡РЅРёРєРѕРІ РёР»Рё РїСЂРё СѓС‚РµС‡РєРµ РґР°РЅРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё.";
 					txtAnswer->Visible = true;
 					btnTask2->Visible = true;
 					break;
 				case 6:
-					lblHead->Text = "Вопрос 6:";
+					lblHead->Text = "Р’РѕРїСЂРѕСЃ 6:";
 					label2->Visible = true;
-					label2->Text = "Выберите языки программирования";
+					label2->Text = "Р’С‹Р±РµСЂРёС‚Рµ СЏР·С‹РєРё РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёСЏ";
 					grpTask3->Visible = true;
 					checkBox1->Text = "C++";
 					checkBox2->Text = "C#";
@@ -484,9 +484,9 @@ namespace Project36 {
 					btnTask3->Visible = true;
 					break;
 				case 7:
-					lblHead->Text = "Вопрос 7:";
+					lblHead->Text = "Р’РѕРїСЂРѕСЃ 7:";
 					label2->Visible = true;
-					label2->Text = "Первый компьютерный вирус был создан:";
+					label2->Text = "РџРµСЂРІС‹Р№ РєРѕРјРїСЊСЋС‚РµСЂРЅС‹Р№ РІРёСЂСѓСЃ Р±С‹Р» СЃРѕР·РґР°РЅ:";
 					grpTask1->Visible = true;
 					btnTask1->Visible = true;
 					rbtn1->Text = "1970";
@@ -495,16 +495,16 @@ namespace Project36 {
 					break;
 				case 8:
 					grpTask1->Visible = false;
-					lblHead->Text = "Вопрос 8:";
+					lblHead->Text = "Р’РѕРїСЂРѕСЃ 8:";
 					label2->Visible = true;
-					label2->Text = "Какая абревиатура у факультета?";
+					label2->Text = "РљР°РєР°СЏ Р°Р±СЂРµРІРёР°С‚СѓСЂР° Сѓ С„Р°РєСѓР»СЊС‚РµС‚Р°?";
 					txtAnswer->Visible = true;
 					btnTask2->Visible = true;
 					break;
 				case 9:
-					lblHead->Text = "Вопрос 9:";
+					lblHead->Text = "Р’РѕРїСЂРѕСЃ 9:";
 					label2->Visible = true;
-					label2->Text = "Выберите IT компании Саратова:";
+					label2->Text = "Р’С‹Р±РµСЂРёС‚Рµ IT РєРѕРјРїР°РЅРёРё РЎР°СЂР°С‚РѕРІР°:";
 					grpTask3->Visible = true;
 					checkBox1->Text = "Epam";
 					checkBox2->Text = "Grid Dynamics";
@@ -513,87 +513,87 @@ namespace Project36 {
 					btnTask3->Visible = true;
 					break;
 				case 10:
-					lblHead->Text = "Вопрос 10:";
+					lblHead->Text = "Р’РѕРїСЂРѕСЃ 10:";
 					label2->Visible = true;
-					label2->Text = "Когда отмечается день Компьютерной Безопасности?";
+					label2->Text = "РљРѕРіРґР° РѕС‚РјРµС‡Р°РµС‚СЃСЏ РґРµРЅСЊ РљРѕРјРїСЊСЋС‚РµСЂРЅРѕР№ Р‘РµР·РѕРїР°СЃРЅРѕСЃС‚Рё?";
 					grpTask1->Visible = true;
 					btnTask1->Visible = true;
-					rbtn1->Text = "3 декабря";
-					rbtn2->Text = "30 ноября";
-					rbtn3->Text = "4 апреля";
+					rbtn1->Text = "3 РґРµРєР°Р±СЂСЏ";
+					rbtn2->Text = "30 РЅРѕСЏР±СЂСЏ";
+					rbtn3->Text = "4 Р°РїСЂРµР»СЏ";
 					break;
-					//категория да/нет
+					//РєР°С‚РµРіРѕСЂРёСЏ РґР°/РЅРµС‚
 				case 11:
-					lblHead->Text = "Вопрос 11:";
+					lblHead->Text = "Р’РѕРїСЂРѕСЃ 11:";
 					label2->Visible = true;
-					label2->Text = "8 в двоичной системе это 1000?";
+					label2->Text = "8 РІ РґРІРѕРёС‡РЅРѕР№ СЃРёСЃС‚РµРјРµ СЌС‚Рѕ 1000?";
 					grpTask11->Visible = true;
 					btnTask11->Visible = true;
-					rbtnYes->Text = "Да";
-					rbtnNo->Text = "Нет";
+					rbtnYes->Text = "Р”Р°";
+					rbtnNo->Text = "РќРµС‚";
 					break;
 				default: break;
 			}
 
 		}
-		//очки
+		//РѕС‡РєРё
 		   int score = 0;
 
-		//самый простой <<перемешиватель>> элементов массива
+		//СЃР°РјС‹Р№ РїСЂРѕСЃС‚РѕР№ <<РїРµСЂРµРјРµС€РёРІР°С‚РµР»СЊ>> СЌР»РµРјРµРЅС‚РѕРІ РјР°СЃСЃРёРІР°
 		   void RanD(int m[], int size)
 		   {
 				for (int i = 0; i < size; ++i)
 				std::swap(m[i], m[std::rand() % size]);
 		   }
 
-		   //стек для хранения очередности вопросов
+		   //СЃС‚РµРє РґР»СЏ С…СЂР°РЅРµРЅРёСЏ РѕС‡РµСЂРµРґРЅРѕСЃС‚Рё РІРѕРїСЂРѕСЃРѕРІ
 	private: System::Collections::Generic::Stack<int> stk;
 		
-		  //кнопка перемешать
+		  //РєРЅРѕРїРєР° РїРµСЂРµРјРµС€Р°С‚СЊ
 	private: System::Void btnStart_Click(System::Object^ sender, System::EventArgs^ e)
 	{
-		//массив из 11 числе
+		//РјР°СЃСЃРёРІ РёР· 11 С‡РёСЃР»Рµ
 		int m[11] = { 1,2,3,4,5,6,7,8,9, 10, 11};
-		RanD(m, 11); //перемешиваем
-		//добавляем все в стек
+		RanD(m, 11); //РїРµСЂРµРјРµС€РёРІР°РµРј
+		//РґРѕР±Р°РІР»СЏРµРј РІСЃРµ РІ СЃС‚РµРє
 		for (int i = 0; i < 11; i++)
 		{
 			stk.Push(m[i]);
 		}
-		//ненужные кпонки исчезают, появляется кнопка вопросов
+		//РЅРµРЅСѓР¶РЅС‹Рµ РєРїРѕРЅРєРё РёСЃС‡РµР·Р°СЋС‚, РїРѕСЏРІР»СЏРµС‚СЃСЏ РєРЅРѕРїРєР° РІРѕРїСЂРѕСЃРѕРІ
 		btnStart->Visible = false;
 		btnTask->Visible = true;
 	}
 
-		   //категория 2 вопросов
+		   //РєР°С‚РµРіРѕСЂРёСЏ 2 РІРѕРїСЂРѕСЃРѕРІ
 	private: System::Void btnTask2_Click(System::Object^ sender, System::EventArgs^ e)
 	{
-		//приготовления
+		//РїСЂРёРіРѕС‚РѕРІР»РµРЅРёСЏ
 		String^ str = txtAnswer->Text;
 		txtAnswer->ReadOnly = false;
 		lblText->Visible = true;
 
-		//если ничего не введено
+		//РµСЃР»Рё РЅРёС‡РµРіРѕ РЅРµ РІРІРµРґРµРЅРѕ
 		if (str == "")
 		{
-			lblText->Text = "Введите ответ в текстовое поле";
+			lblText->Text = "Р’РІРµРґРёС‚Рµ РѕС‚РІРµС‚ РІ С‚РµРєСЃС‚РѕРІРѕРµ РїРѕР»Рµ";
 		}
 		else
 		{
-			//смотрим по вариантам вопроса
-			if ((str == "2000" && label2->Text == "Год основания нашего факультета")
-				|| (str == "WikiLeaks" && label2->Text == "Назовите организацию, которая публикует секретную информацию, взятую из анонимных источников или при утечке данной информации.")
-				|| (str == "КНиИТ" && label2->Text == "Какая абревиатура у факультета?"))
+			//СЃРјРѕС‚СЂРёРј РїРѕ РІР°СЂРёР°РЅС‚Р°Рј РІРѕРїСЂРѕСЃР°
+			if ((str == "2000" && label2->Text == "Р“РѕРґ РѕСЃРЅРѕРІР°РЅРёСЏ РЅР°С€РµРіРѕ С„Р°РєСѓР»СЊС‚РµС‚Р°")
+				|| (str == "WikiLeaks" && label2->Text == "РќР°Р·РѕРІРёС‚Рµ РѕСЂРіР°РЅРёР·Р°С†РёСЋ, РєРѕС‚РѕСЂР°СЏ РїСѓР±Р»РёРєСѓРµС‚ СЃРµРєСЂРµС‚РЅСѓСЋ РёРЅС„РѕСЂРјР°С†РёСЋ, РІР·СЏС‚СѓСЋ РёР· Р°РЅРѕРЅРёРјРЅС‹С… РёСЃС‚РѕС‡РЅРёРєРѕРІ РёР»Рё РїСЂРё СѓС‚РµС‡РєРµ РґР°РЅРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё.")
+				|| (str == "РљРќРёРРў" && label2->Text == "РљР°РєР°СЏ Р°Р±СЂРµРІРёР°С‚СѓСЂР° Сѓ С„Р°РєСѓР»СЊС‚РµС‚Р°?"))
 			{
-				lblText->Text = "Правильно!";
+				lblText->Text = "РџСЂР°РІРёР»СЊРЅРѕ!";
 				score++;
 			}
 			else
 			{
-				lblText->Text = "Ой!";
+				lblText->Text = "РћР№!";
 			}
 
-			//закрываем возможность выбора
+			//Р·Р°РєСЂС‹РІР°РµРј РІРѕР·РјРѕР¶РЅРѕСЃС‚СЊ РІС‹Р±РѕСЂР°
 			txtAnswer->ReadOnly = true;
 			btnTask2->Visible = false;
 			txtAnswer->Text = "";
@@ -601,10 +601,10 @@ namespace Project36 {
 		}
 
 	}
-		   //выбор вопроса
+		   //РІС‹Р±РѕСЂ РІРѕРїСЂРѕСЃР°
 	private: System::Void btnTask_Click(System::Object^ sender, System::EventArgs^ e)
 	{
-		//все очищаем/прячем
+		//РІСЃРµ РѕС‡РёС‰Р°РµРј/РїСЂСЏС‡РµРј
 		txtAnswer->Visible = false;
 		grpTask1->Visible = false;
 		grpTask3->Visible = false;
@@ -626,30 +626,30 @@ namespace Project36 {
 		rbtnYes->Checked = false;
 		rbtnNo->Checked = false;
 
-		//пока не дошли до конца стека
+		//РїРѕРєР° РЅРµ РґРѕС€Р»Рё РґРѕ РєРѕРЅС†Р° СЃС‚РµРєР°
 		if (stk.Count > 0)
 		{
-			int r = stk.Pop(); //достаем вопрос из стека
+			int r = stk.Pop(); //РґРѕСЃС‚Р°РµРј РІРѕРїСЂРѕСЃ РёР· СЃС‚РµРєР°
 			choiceOfQuestion(r);
 		}
 		else
 		{
-			//к новой панельке
-			lblHead->Text = "вопросы закончились :(";
+			//Рє РЅРѕРІРѕР№ РїР°РЅРµР»СЊРєРµ
+			lblHead->Text = "РІРѕРїСЂРѕСЃС‹ Р·Р°РєРѕРЅС‡РёР»РёСЃСЊ :(";
 			btnTask->Visible = false;
 			txtResult->Visible = true;
 			btnResult->Visible = true;
 		}
 	}
 
-		   //категрия 1 выбор из 3 вариантов
-		//в завсисимости от задания сравнивается и выдается вердикт
+		   //РєР°С‚РµРіСЂРёСЏ 1 РІС‹Р±РѕСЂ РёР· 3 РІР°СЂРёР°РЅС‚РѕРІ
+		//РІ Р·Р°РІСЃРёСЃРёРјРѕСЃС‚Рё РѕС‚ Р·Р°РґР°РЅРёСЏ СЃСЂР°РІРЅРёРІР°РµС‚СЃСЏ Рё РІС‹РґР°РµС‚СЃСЏ РІРµСЂРґРёРєС‚
 	private: System::Void btnTask1_Click(System::Object^ sender, System::EventArgs^ e)
 	{
 		if (rbtn2->Checked == true && rbtn2->Text == "I love you")
 		{
 			lblText->Visible = true;
-			lblText->Text = "Правильно!";
+			lblText->Text = "РџСЂР°РІРёР»СЊРЅРѕ!";
 			score++;
 
 			grpTask1->Enabled = false;
@@ -660,7 +660,7 @@ namespace Project36 {
 		if ((rbtn1->Checked == true && rbtn1->Text == "Trojan horse") || (rbtn3->Checked == true && rbtn3->Text == "Your favorite letter"))
 		{
 			lblText->Visible = true;
-			lblText->Text = "Неправильно!";
+			lblText->Text = "РќРµРїСЂР°РІРёР»СЊРЅРѕ!";
 
 			grpTask1->Enabled = false;
 			btnTask1->Visible = false;
@@ -670,7 +670,7 @@ namespace Project36 {
 		if (rbtn1->Checked == true && rbtn1->Text == "1970")
 		{
 			lblText->Visible = true;
-			lblText->Text = "Правильно!";
+			lblText->Text = "РџСЂР°РІРёР»СЊРЅРѕ!";
 			score++;
 
 			grpTask1->Enabled = false;
@@ -681,7 +681,7 @@ namespace Project36 {
 		if ((rbtn2->Checked == true && rbtn2->Text == "1999") || (rbtn3->Checked == true && rbtn3->Text == "1985"))
 		{
 			lblText->Visible = true;
-			lblText->Text = "Неправильно!";
+			lblText->Text = "РќРµРїСЂР°РІРёР»СЊРЅРѕ!";
 
 			grpTask1->Enabled = false;
 			btnTask1->Visible = false;
@@ -691,7 +691,7 @@ namespace Project36 {
 		if (rbtn3->Checked == true && rbtn3->Text == "helloworld")
 		{
 			lblText->Visible = true;
-			lblText->Text = "Правильно!";
+			lblText->Text = "РџСЂР°РІРёР»СЊРЅРѕ!";
 			score++;
 
 			grpTask1->Enabled = false;
@@ -702,7 +702,7 @@ namespace Project36 {
 		if ((rbtn1->Checked == true && rbtn1->Text == "zinch") || (rbtn2->Checked == true && rbtn2->Text == "1qaz2wsx"))
 		{
 			lblText->Visible = true;
-			lblText->Text = "Неправильно!";
+			lblText->Text = "РќРµРїСЂР°РІРёР»СЊРЅРѕ!";
 
 			grpTask1->Enabled = false;
 
@@ -710,10 +710,10 @@ namespace Project36 {
 			btnTask->Visible = true;
 		}
 
-		if (rbtn2->Checked == true && rbtn2->Text == "30 ноября")
+		if (rbtn2->Checked == true && rbtn2->Text == "30 РЅРѕСЏР±СЂСЏ")
 		{
 			lblText->Visible = true;
-			lblText->Text = "Правильно!";
+			lblText->Text = "РџСЂР°РІРёР»СЊРЅРѕ!";
 			score++;
 
 			grpTask1->Enabled = false;
@@ -721,10 +721,10 @@ namespace Project36 {
 			btnTask->Visible = true;
 		}
 
-		if ((rbtn1->Checked == true && rbtn1->Text == "3 декабря") || (rbtn3->Checked == true && rbtn3->Text == "4 апреля"))
+		if ((rbtn1->Checked == true && rbtn1->Text == "3 РґРµРєР°Р±СЂСЏ") || (rbtn3->Checked == true && rbtn3->Text == "4 Р°РїСЂРµР»СЏ"))
 		{
 			lblText->Visible = true;
-			lblText->Text = "Неправильно!";
+			lblText->Text = "РќРµРїСЂР°РІРёР»СЊРЅРѕ!";
 
 			grpTask1->Enabled = false;
 
@@ -732,60 +732,60 @@ namespace Project36 {
 			btnTask->Visible = true;
 		}
 
-		//если ничего не выбрано
+		//РµСЃР»Рё РЅРёС‡РµРіРѕ РЅРµ РІС‹Р±СЂР°РЅРѕ
 		if (rbtn2->Checked == false && rbtn1->Checked == false && rbtn3->Checked == false)
 		{
 			lblText->Visible = true;
-			lblText->Text = "Выберите вариант ответа!";
+			lblText->Text = "Р’С‹Р±РµСЂРёС‚Рµ РІР°СЂРёР°РЅС‚ РѕС‚РІРµС‚Р°!";
 		}
 	}
 	
-		   //категория 3 выбор нескольких ответов
+		   //РєР°С‚РµРіРѕСЂРёСЏ 3 РІС‹Р±РѕСЂ РЅРµСЃРєРѕР»СЊРєРёС… РѕС‚РІРµС‚РѕРІ
 	private: System::Void btnTask3_Click(System::Object^ sender, System::EventArgs^ e)
 	{
 		lblText->Visible = true;
 
-		//если ничего не выбрано
+		//РµСЃР»Рё РЅРёС‡РµРіРѕ РЅРµ РІС‹Р±СЂР°РЅРѕ
 		if ((checkBox2->Checked == false) && (checkBox3->Checked == false) && (checkBox4->Checked == false) && (checkBox1->Checked == false))
 		{
-			lblText->Text = "Выберите несколько ответов.";
+			lblText->Text = "Р’С‹Р±РµСЂРёС‚Рµ РЅРµСЃРєРѕР»СЊРєРѕ РѕС‚РІРµС‚РѕРІ.";
 		}
 		else
 		{
-			//зкрываем выбор
+			//Р·РєСЂС‹РІР°РµРј РІС‹Р±РѕСЂ
 			grpTask3->Enabled = false;
-			//проверяем по заданиям
-			if ((checkBox2->Checked == true && checkBox1->Text == "КБ") && (checkBox3->Checked == true) && (checkBox4->Checked == true) && (checkBox1->Checked == false)
+			//РїСЂРѕРІРµСЂСЏРµРј РїРѕ Р·Р°РґР°РЅРёСЏРј
+			if ((checkBox2->Checked == true && checkBox1->Text == "РљР‘") && (checkBox3->Checked == true) && (checkBox4->Checked == true) && (checkBox1->Checked == false)
 				||((checkBox1->Checked == true && checkBox1->Text == "C++") && (checkBox2->Checked == true) && (checkBox3->Checked == true) && (checkBox4->Checked == false))
 				||((checkBox1->Checked == true && checkBox1->Text == "Epam") && (checkBox2->Checked == true) && (checkBox3->Checked == false) && (checkBox4->Checked == false)))
 			{
-				lblText->Text = "Правильно!";
+				lblText->Text = "РџСЂР°РІРёР»СЊРЅРѕ!";
 				score++;
 			}
 			else
 			{
-				lblText->Text = "Неправильно!";
+				lblText->Text = "РќРµРїСЂР°РІРёР»СЊРЅРѕ!";
 			}
-			//подчищаем поле
+			//РїРѕРґС‡РёС‰Р°РµРј РїРѕР»Рµ
 			btnTask3->Visible = false;
 			btnTask->Visible = true;
 		}
 	}
 
-		   //вывод результата
+		   //РІС‹РІРѕРґ СЂРµР·СѓР»СЊС‚Р°С‚Р°
 	private: System::Void btnResult_Click(System::Object^ sender, System::EventArgs^ e) 
 	{
-		//выводим очки
-		txtResult->Text = System::Convert::ToString(score + " из 11");
+		//РІС‹РІРѕРґРёРј РѕС‡РєРё
+		txtResult->Text = System::Convert::ToString(score + " РёР· 11");
 	}
-		   //категория Да/нет
+		   //РєР°С‚РµРіРѕСЂРёСЏ Р”Р°/РЅРµС‚
 	private: System::Void btnTask11_Click(System::Object^ sender, System::EventArgs^ e)
 	{
-		//по тексту заадания(у нас такое одно)
-		if (rbtnYes->Checked == true && rbtnYes->Text == "Да")
+		//РїРѕ С‚РµРєСЃС‚Сѓ Р·Р°Р°РґР°РЅРёСЏ(Сѓ РЅР°СЃ С‚Р°РєРѕРµ РѕРґРЅРѕ)
+		if (rbtnYes->Checked == true && rbtnYes->Text == "Р”Р°")
 		{
 			lblText->Visible = true;
-			lblText->Text = "Правильно!";
+			lblText->Text = "РџСЂР°РІРёР»СЊРЅРѕ!";
 			score++;
 
 			grpTask11->Enabled = false;
@@ -793,10 +793,10 @@ namespace Project36 {
 			btnTask->Visible = true;
 		}
 
-		if (rbtnNo->Checked == true && rbtnNo->Text == "Нет")
+		if (rbtnNo->Checked == true && rbtnNo->Text == "РќРµС‚")
 		{
 			lblText->Visible = true;
-			lblText->Text = "Неправильно!";
+			lblText->Text = "РќРµРїСЂР°РІРёР»СЊРЅРѕ!";
 
 			grpTask11->Enabled = false;
 			btnTask11->Visible = false;
@@ -806,7 +806,7 @@ namespace Project36 {
 		if (rbtnYes->Checked == false && rbtnNo->Checked == false)
 		{
 			lblText->Visible = true;
-			lblText->Text = "Выберите вариант ответа!";
+			lblText->Text = "Р’С‹Р±РµСЂРёС‚Рµ РІР°СЂРёР°РЅС‚ РѕС‚РІРµС‚Р°!";
 		}
 	}
 };
